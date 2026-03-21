@@ -4,9 +4,11 @@ Many questions revolve around this notion of mixed strategies in 0-sum two playe
 
 ### 1. Aces and Queens:
 
-$\mathbf{Question: }$ Consider a two player poker-like game. There is $1 in the pot, and both players have $1 behind. There are no cards dealt (the higher pocket hand wins). You have aces half the time, and queens half the time. The other player has kings every time. You are in position, and the other player checks to you (if you check back the hand ends). How should you act? 
+#### Question:  
+Consider a two player poker-like game. There is $1 in the pot, and both players have $1 behind. There are no cards dealt (the higher pocket hand wins). You have aces half the time, and queens half the time. The other player has kings every time. You are in position, and the other player checks to you (if you check back the hand ends). How should you act? 
 
-$\mathbf{Answer: }$ Clearly, you should bet when you have aces, as you either get called or don't but never lose. The question is should you bet with a queen. 
+#### Answer: 
+Clearly, you should bet when you have aces, as you either get called or don't but never lose. The question is should you bet with a queen. 
 
 If you never bet with your queen, the other player should fold when you bet (they're never good). If you always bet with your queen, they should always call (they wi 50% of the time and are getting 2:1 odds to call).
 
@@ -50,9 +52,10 @@ Can solve this to give p = 0.5. Again we consider the ev from the POV of the opp
 
 This outlines the basic idea of Nash questions - do the thing that makes your opponent indifferent. All the following questions do the same thing.
 
-### A Grid Payoff Scenario
+### 2. A Grid Payoff Scenario
 
-\mathbf{Question: }Consider the following payoff grid. The entries are (player 1 payoff, player 2 payoff). For the respective actions. Player 1 chooses between up/down and Player 2 between left/right. 
+#### Question: 
+ Consider the following payoff grid. The entries are (player 1 payoff, player 2 payoff). For the respective actions. Player 1 chooses between up/down and Player 2 between left/right. 
 
 | **P1 \\ P2** | **Left** | **Right** |
 |-------------|----------|-----------|
@@ -61,7 +64,8 @@ This outlines the basic idea of Nash questions - do the thing that makes your op
 
 What is the strategy employed?
 
-$\mathbf{Answer: }$ Again, need to consider the EV of the opposition player to determine frequencies. Denote $p_L$ the probability Player 2 plays left, and $p_U$ the probability Player 1 plays up.
+#### Answer:
+ Again, need to consider the EV of the opposition player to determine frequencies. Denote $p_L$ the probability Player 2 plays left, and $p_U$ the probability Player 1 plays up.
 
 $EV_{P1, Up} = 3p_L - 2(1-p_L)$
 
