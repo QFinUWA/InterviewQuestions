@@ -72,7 +72,7 @@ Note this can also be understood via odds. As the product $P(B \mid A)P(A)$ was 
 
 ---
 
-### 2. Six-Seven of Clubs
+### 2. Six-Seven of Clubs:
 
 You may recognise this from your interviews.
 
@@ -129,3 +129,30 @@ $$
 $$
 P(\text{8 of Clubs Next}) = \frac{2551}{2600}
 $$
+
+### 3. Computer Selling:
+
+#### Question:
+
+Company A supplies 40% of the computers sold and is late 5% of the time. Company B supplies 30% of the computers sold and is late 3% of the time. Company C supplies another 30% and is late 2.5% of the time. A computer arrives late - what is the probability that it came from Company A? 
+
+#### Answer:
+
+Let event L denote the computer arriving late.
+
+$$
+P(L) = \Sigma_{\text{S \in suppliers}}P(S_i)P(L \mid S_i)
+$$
+
+$$
+P(L) = 0.4(0.05) + 0.3(0.03) + 0.3(0.025) = 0.0365
+$$
+
+$$
+P(A \mid L) = \frac{P(L \mid A)P(A)}{P(L)}
+$$
+
+$$
+P(A \mid L) = \frac{0.05(0.4)}{0.0365} = 0.55
+$$
+
