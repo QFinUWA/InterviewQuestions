@@ -13,4 +13,6 @@ Topics:
 - Probability Distributions (Josh)
 - Optimisation Problems (Josh)
 - Hypothesis Testing (Josh)
+- Miscellaneous Game Theory (Josh)
+- Miscellaneousv Coin/Dice/Card Questions (Josh/Cameron)
 - Miscellaneous Questions
