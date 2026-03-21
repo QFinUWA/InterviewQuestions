@@ -26,7 +26,7 @@ Opponent Calls: $EV_{opponent} = 0.5(-1) + 0.5(1) = 0$ (when you bet you win, wh
 
 Opponent Folds: $EV_{opponent} = 0.5(0) + 0.5(1) = 0.5$
 
-So, with optimal strategy you both get \$0.50 of EV. Consider the case where you bet with half your queens. As such, 25\% of the time it checks though and your opponent wins (you have a queen), and $\frac{2}{3}$ of the time yoou beet you have a queen.
+So, with optimal strategy you both get &#36;0.50 of EV. Consider the case where you bet with half your queens. As such, 25\% of the time it checks though and your opponent wins (you have a queen), and $\frac{2}{3}$ of the time yoou beet you have a queen.
 
 Opponent Calls: $EV = 0.25(1) + \frac{3}{4} (\frac{2}{3} (-1) + \frac{1}{3} (2)) = 0.25$
 
