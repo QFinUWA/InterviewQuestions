@@ -42,3 +42,23 @@ In the four pirate case, the 2nd least senior pirate only needs 1 gold coin to u
 
 In the five pirate case, the 3rd least senior and the least senior pirate need only \$1 to accept, so the distribution 99, 0, 1, 0, 1 passes. 
 
+---
+
+### 3. Tigers and Sheep:
+
+#### Question:
+
+One hundred tigers and one sheep are put on a magic island that only has grass. Tigers
+can eat grass, but they would rather eat sheep. Assume: A. Each time only one tiger can
+eat one sheep, and that tiger itself will become a sheep after it eats the sheep. B. All
+tigers are smart and perfectly rational and they want to survive. So will the sheep be
+eaten?
+
+#### Solution:
+
+A similar argument to that used in the prior question can be used
+
+If there are two tigers, the sheep doesn't get eaten as the tiger doing the eaten would get chomped by the remaining tiger. 
+As such, with three tigers the sheep can be eaten because then we reduce to the 2 tiger case with the safe sheep.
+
+It is clear that this argument follow parity and with 100 tigers the sheep cannot be eaten.
