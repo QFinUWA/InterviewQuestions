@@ -156,7 +156,10 @@ $$
 P(A \mid L) = \frac{0.05(0.4)}{0.0365} = 0.55
 $$
 
-### 4. Coin Game:
+---
+
+
+### 5. Coin Game:
 
 #### Question:
 
