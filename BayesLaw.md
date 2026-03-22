@@ -141,7 +141,7 @@ Company A supplies 40% of the computers sold and is late 5% of the time. Company
 Let event L denote the computer arriving late.
 
 $$
-P(L) = \Sigma_{\text{S \in suppliers}}P(S_i)P(L \mid S_i)
+P(L) = \sum_{S_i \in \text{suppliers}} P(S_i) P(L \mid S_i)
 $$
 
 $$
@@ -156,3 +156,22 @@ $$
 P(A \mid L) = \frac{0.05(0.4)}{0.0365} = 0.55
 $$
 
+### 4. Coin Game:
+
+#### Question:
+
+You pick a random biased coin with $P(H) \sim U(0, 1)$, flip it 10 times and get 7 heads. Make a centered 95% confidence interval on $P(H)$. What if you flip it 100 times and get 70 heads.
+
+#### Answer:
+
+The intuition here is that the CI for the 10 flips should be skewed more towards $P(H) = 0.5$ than the 100 flips because you're updating less towards the observed value; the difference in likelihood between 7 of 10 heads with $P(H) = 0.5$ vs $P(H) = 0.7$ is much less than the difference in likelihood between 70 of 100 heads with $P(H) = 0.5$ vs $P(H) = 0.7$. Additionally, the CI should be much tighter for the 100 flip trial. This should be sufficient in practice if you get this question, but I will also plot the distribution of $P(H \mid \text{Observed result})$ for both results. You need to use something called MCMC here which you are not expected to know in the least, but is required to actually get the final answer.
+
+![alt text](Images/MCMCCoinFlip.png)
+
+, with the below results:
+
+| Metric                   | Trial 1 (10 flips) | Trial 2 (100 flips) |
+|--------------------------|-------------------:|--------------------:|
+| Mean                     | 0.6681             | 0.6955              |
+| Median                   | 0.6778             | 0.6971              |
+| 95% Confidence Interval  | (0.4347, 0.8657)   | (0.6182, 0.7678)    |
