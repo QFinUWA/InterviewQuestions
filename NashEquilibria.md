@@ -83,4 +83,4 @@ $EV_{P2, Left} = -3p_U + (1 - p_U)$
 
 $EV_{P2, Right} = 2p_U$
 
-Can equate these, finding that $p_U = \frac{1}{6}$. As such, in equilibria, Player 1 goes up $\frac{1}{6}$ of the time, and Player 2 goes left $\frac{1}{3}$ of the time.
+Can equate these, finding that $p_U = \frac{1}{6}$. As such, in equilibria, Player 1 goes up $\frac{1}{3}$ of the time, and Player 2 goes left $\frac{1}{6}$ of the time.
