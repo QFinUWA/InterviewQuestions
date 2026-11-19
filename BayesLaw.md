@@ -1,4 +1,4 @@
-# Bayes' Law
+## Bayes' Law
  
 Bayesian statistics is an interpretation of probability built around updating your view of the world as new information comes in, and Bayes' Law is what formalises this. This section goes through some standard interview questions, along with a few less standard ones that should help build intuition for what the Bayesian process is actually doing.
  
@@ -157,9 +157,13 @@ Let $C_i$ be the event that the car is behind door $i$, so $P(C_i) = \frac{1}{3}
 - $P(O_3 \mid C_1) = \frac{1}{2}$ (doors 2 and 3 both hide goats)
 - $P(O_3 \mid C_2) = 1$ (door 3 is his only option)
 - $P(O_3 \mid C_3) = 0$
+By the law of total probability,
+ 
 $$
 P(O_3) = \frac{1}{2}\left(\frac{1}{3}\right) + 1\left(\frac{1}{3}\right) + 0 = \frac{1}{2}
 $$
+ 
+and by Bayes' Law,
  
 $$
 P(C_1 \mid O_3) = \frac{\frac{1}{2} \cdot \frac{1}{3}}{\frac{1}{2}} = \frac{1}{3}, \quad P(C_2 \mid O_3) = \frac{1 \cdot \frac{1}{3}}{\frac{1}{2}} = \frac{2}{3}
